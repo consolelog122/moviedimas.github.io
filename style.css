@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* navbar */
+.navbar .navbar-brand {
+  font-size: 1.8em;
+  margin-right: 2rem;
+}
+
+.navbar .navbar-brand input {
+  width: 1000px;
+}
+/* navbar */
+
+/* random */
+
+/* random */
+
+/* semua film */
+.container-film {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-film .card {
+  margin: 1rem;
+  border: 1px solid black;
+  box-shadow: 5px 1px 2px solid;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container-film .card img {
+  transition: all 0.4s;
+}
+
+.container-film .card img:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110%;
+  height: 110%;
+}
+
+.container-film .card input {
+  margin-left: 10rem;
+}
+
+.container-film .card .card-text {
+  height: 10rem;
+  overflow: auto;
+}
+
+/* semua film */
+
+/* footter */
+footer {
+  margin-top: 5rem;
+}
+/* footter */
+
+/* responsive */
+
+/* table */
+@media only screen and (max-width: 800px) {
+  .container-film {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container-film .card {
+    width: 100%;
+  }
+}
+/* table */
